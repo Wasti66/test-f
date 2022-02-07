@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+section{
+	padding-top:75px;
+	padding-bottom:75px;
+}
+/* -- ==== about section ===== -- */
+#about img{
+	height: 536px;
+	width: 338px;
+}
+/* -- ====  My recipies ==== -- */
+#recipies .card{
+	border-radius: 30px;
+}
+/* -- ==== clink review ==== -- */
+#clint .shadow-radius{
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+}
+/* -- === footer === -- */
+#footer{
+	background-color:#0B0D17;
+
+}
+@media(max-width:576px){
+	#home h1{
+		font-size:1.8rem;
+	}
+	#about img{
+		width:100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

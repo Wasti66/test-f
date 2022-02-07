@@ -1,0 +1,271 @@
+/*-----------------------------------
+----Global CSS For All Projects------
+-----------------------------------*/
+
+/*=======Global CSS ==========*/
+
+/*A*/
+.accordion-rotate-icon i{
+	transform:rotate(180deg);
+}
+.accordion-rotate-icon .collapsed i{
+	transform:rotate(0);
+	transition: all 1s;
+}
+/*B*/
+.bottom-0{
+	bottom:0;
+}
+.background-size-cover{
+	background-size:cover!important;
+}
+.background-repeat-no-repeat{
+	background-repeat:no-repeat;
+}
+.background-position-center{
+	background-position:center;
+}
+.background-attachment-fixed{
+	background-attachment:fixed;
+}
+.box-shadow-none{
+	box-shadow:none!important;
+}
+.bg-linear-gradient{
+	background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+
+}
+/*C*/
+.carsor-pointer{
+	cursor:pointer!important;
+}
+.card:hover .card-transform-scale-120{
+	transform:scale(1.2);
+}
+.card-img-overlay-hover{
+	visibility:hidden;
+	transform:translateY(100%);
+	transition:all .5s;
+}
+.card:hover .card-img-overlay-hover{
+	visibility:visible;
+	transform:translateY(0);
+}
+.card:hover .bg-black-hover{
+	background-color:black!important;
+}
+.card:hover .text-white-hover{
+	color:white!important;
+}
+.carousel-indicators-squre-sm li,
+.carousel-indicators-circle-sm li,
+.carousel-indicators-squre-outline-sm li,
+.carousel-indicators-circle-outline-sm li{
+	height:.7rem;
+	width:0.7rem;	
+}
+.carousel-indicators-squre li,
+.carousel-indicators-circle li,
+.carousel-indicators-squre-outline li,
+.carousel-indicators-circle-outline li{
+	height:1rem;
+	width:1rem;	
+}
+.carousel-indicators-squre-lg li,
+.carousel-indicators-circle-lg li,
+.carousel-indicators-squre-outline-lg li,
+.carousel-indicators-circle-outline-lg li{
+	height:1.25rem;
+	width:1.25rem;	
+}
+.carousel-indicators-squre-outline li,
+.carousel-indicators-squre-outline-sm li,
+.carousel-indicators-squre-outline-lg li{
+	background:transparent;
+	border:1px solid red;
+}
+.carousel-indicators-circle-outline-sm li,
+.carousel-indicators-circle-outline li,
+.carousel-indicators-circle-outline-lg li{
+	background:transparent;
+	border:1px solid red;
+	border-radius:50%;
+}
+.carousel-indicators-circle-sm li,
+.carousel-indicators-circle li,
+.carousel-indicators-circle-lg li{
+	border-radius:50%;
+}
+/*D*/
+.dropdown-toggle-right::after{
+	border-top: .3rem solid transparent!important;
+	border-right:0;
+	border-bottom:0.3rem solid transparent!important;
+	border-left:.3rem solid!important;
+	position:absolute;
+	left:auto!important;
+	right:7px!important;
+	top:50%!important;
+	transform:translateY(-50%)!important;
+}
+/*E*/
+
+/*F*/
+.font-size-0_9{
+	font-size:0.9rem!important;
+}
+.font-weight-500{
+	font-weight:500;
+}
+.font-weight-600{
+	font-weight:600;
+}
+.font-weight-700{
+	font-weight:700;
+}
+.font-weight-800{
+	font-weight:800;
+}
+/*G*/
+
+/*H*/
+.hover-box-shadow:hover{
+	box-shadow: 0px 7px 26px rgb(136 90 93 / 25%)!important;
+}
+.hover-dropdown:hover>.dropdown-menu{
+	display:block;
+}
+/*I*/
+
+/*J*/
+
+/*K*/
+
+/*L*/
+.line-height-32 {
+    line-height: 32px!important;
+}
+.line-height-23 {
+    line-height: 23px!important;
+}
+.line-height-3_5{
+	line-height:3.5rem!important;
+}
+.letter-spacing-2{
+	letter-spacing:2px!important;
+}
+.letter-spacing-0_6{
+	letter-spacing:0.6px!important;
+}
+.left-0{
+	left:0;
+}
+.left-50{
+	left:50%;
+} 
+.left-auto{
+	left:auto;
+}
+/*M*/
+.mt-9{
+	margin-top:9rem!important;
+}
+.mt-14{
+	margin-top:14rem!important;
+}
+.mt-6{
+	margin-top:6rem!important;
+}
+.mt-n6{
+	margin-top:-5.5rem!important;
+}
+.mb-7{
+	margin-bottom:7rem!important;
+}
+.mb-8{
+	margin-bottom:8rem!important;
+}
+.mt-n1-hover:hover{
+	margin-top:-1rem!important;
+}
+/*N*/
+
+/*O*/
+
+/*P*/
+ 
+/*Q*/
+
+/*R*/
+.right-0{
+   right:0;
+}
+.right-15{
+	right:15px;
+}
+.right-5{
+	right:5px;
+}
+/*S*/
+
+/*T*/
+.top-0{
+	top:0;
+}
+.top-50{
+	top:50%;
+}
+.transition-100{
+	transition:all 0.1s!important;
+}
+.transition-400{
+	transition:all 0.4s!important;
+}
+.transition-1000{
+	transition:all 1s!important;
+}
+.text-dark-50{
+	color: #423131;
+
+}
+.text-color-linear-gradient{
+	background:-webkit-linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+/*U*/
+
+/*V*/
+
+/*W*/
+.w-6{
+   width:6rem!important;	
+}
+
+.w-4{
+	width:4.5rem!important;
+}
+.w-3{
+	width:3rem!important;
+}
+.w-2{
+   width:2.5rem!important;		  
+}
+.w-1{
+	width:1.8rem!important;
+}
+.word-spacing-2{
+	word-spacing:2px!important;
+}
+/*X*/
+
+/*z*/
+.z-index-0{
+	z-index:0;
+}
+.z-index-1{
+	z-index:1;
+}
+.z-index-2{
+	z-index:2;
+}
